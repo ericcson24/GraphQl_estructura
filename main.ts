@@ -16,9 +16,9 @@ await client.connect()
 console.log("Conectado a la base de datos")
 
 //colecciones en base de datos
-const db = client.db("medico")
-const PacientesCollection = db.collection<Paciente>("pacientes")
-const CitasCollection = db.collection<Cita>("citas")
+const db = client.db("X")
+const Y = db.collection<  --  >("nombre")
+const Z = db.collection< -- >("nombre")
 
 //para la creacion de server apollo
 const server = new ApolloServer({typeDefs, resolvers})
